@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    image: 'php:8.1'
+    ports:
+      - '8089:8089' # 使っていないポート
+    env_file:
+      - ./.env
+    working_dir: /app
+    command: php -S 0.0.0.0:8089
+    volumes:
+      - './:/app'
