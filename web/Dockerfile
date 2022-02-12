@@ -1,5 +1,8 @@
 FROM php:8.1
 
+RUN apt update \
+  && apt-get install -y git
+
 COPY . /app
 
 WORKDIR /app
