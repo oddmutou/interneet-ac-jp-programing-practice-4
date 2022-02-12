@@ -1,0 +1,8 @@
+{
+    "name": "muto/testwebapp",
+    "type": "project",
+    "description": "東京通信大学 プログラミング演習4 課題",
+    "require": {
+        "php": "^8.1"
+    }
+}
